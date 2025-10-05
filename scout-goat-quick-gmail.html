@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scout Goat — Junk Removal, Cleaning & Pressure Washing • Mobile, AL</title>
+  <meta name="description" content="Fast, local, insured. Text or call 251-289-0478 for junk removal, cleaning, pressure washing, and delivery.">
+  <link rel="icon" href="scout goat logo.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="scout goat logo.jpg" alt="Scout Goat logo" class="h-10 w-10 rounded-md">
+        <div class="leading-tight">
+          <p class="font-extrabold text-lg">Scout Goat</p>
+          <p class="text-xs text-slate-500">Junk • Cleaning • Wash • Delivery</p>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center gap-3">
+        <a href="tel:+12512890478" class="rounded-full border border-slate-300 px-4 py-2 text-sm hover:border-sky-400 hover:text-sky-700">Call 251‑289‑0478</a>
+        <a href="sms:+12512890478" class="rounded-full bg-sky-500 px-4 py-2 text-sm font-semibold text-white hover:bg-sky-600">Text Us</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-gradient-to-b from-white to-slate-50">
+    <div class="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-sky-600 text-sm font-extrabold uppercase">Mobile, AL • Gulf Coast</p>
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mt-2">Fast Help for <span class="text-sky-600">Junk &amp; Shine</span></h1>
+        <p class="mt-4 text-lg text-slate-600 max-w-xl">Text photos and get a same‑day quote. We do junk removal, cleaning, power washing, and small moves.</p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a href="sms:+12512890478" class="inline-flex justify-center rounded-xl bg-sky-500 px-6 py-3 text-base font-semibold text-white hover:bg-sky-600">Text Photos for Quote</a>
+          <a href="tel:+12512890478" class="inline-flex justify-center rounded-xl border border-slate-300 px-6 py-3 text-base hover:border-sky-400 hover:text-sky-700">Call Now</a>
+        </div>
+      </div>
+      <div>
+        <div class="rounded-3xl overflow-hidden border border-slate-200 shadow">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1600&auto=format&fit=crop" alt="Pressure washing" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 py-16" id="contact">
+    <h2 class="text-3xl md:text-4xl font-extrabold">Get a Quote</h2>
+    <p class="text-slate-600 mt-2">Email us or text photos to <a href="sms:+12512890478" class="text-sky-600 font-semibold hover:underline">251‑289‑0478</a>.</p>
+    <!-- UPDATED EMAIL ADDRESS BELOW -->
+    <form action="mailto:scoutgoat4733@gmail.com" method="post" enctype="text/plain" class="mt-8 grid gap-4 max-w-lg">
+      <input name="name" placeholder="Your Name" required class="rounded-lg border border-slate-300 px-3 py-2 focus:ring-2 focus:ring-sky-400 outline-none">
+      <input name="contact" placeholder="Your Phone or Email" required class="rounded-lg border border-slate-300 px-3 py-2 focus:ring-2 focus:ring-sky-400 outline-none">
+      <textarea name="message" placeholder="How can we help?" class="rounded-lg border border-slate-300 px-3 py-2 h-32 focus:ring-2 focus:ring-sky-400 outline-none"></textarea>
+      <button type="submit" class="rounded-lg bg-sky-500 text-white font-semibold py-3 hover:bg-sky-600">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-white border-t border-slate-200 py-8">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-slate-600">
+      <p>&copy; <span id="year"></span> Scout Goat. All rights reserved.</p>
+      <p>Mobile, Alabama • Gulf Coast</p>
+    </div>
+  </footer>
+
+  <div class="fixed inset-x-0 bottom-0 z-50 md:hidden">
+    <div class="mx-auto max-w-3xl m-3 rounded-2xl border border-slate-200 bg-white/95 backdrop-blur shadow">
+      <div class="grid grid-cols-2 divide-x divide-slate-200">
+        <a href="tel:+12512890478" class="flex items-center justify-center gap-2 py-3 text-base font-semibold text-slate-800">📞 Call</a>
+        <a href="sms:+12512890478" class="flex items-center justify-center gap-2 py-3 text-base font-semibold text-white bg-sky-500 rounded-r-2xl">💬 Text</a>
+      </div>
+    </div>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
